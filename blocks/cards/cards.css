@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 16px;
-  border: 1px solid red;
+  border: 3px solid red;
 }
 
 .cards > ul > li {
@@ -15,6 +15,7 @@
 
 .cards .cards-card-body {
   margin: 16px;
+  border: 2px solid blue;
 }
 
 .cards .cards-card-image {
